@@ -1,0 +1,3 @@
+C:/Development/Projects/CPP/VSTestProject/cmake-build-debug/CMakeFiles/VSTestProject.dir
+C:/Development/Projects/CPP/VSTestProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Development/Projects/CPP/VSTestProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
