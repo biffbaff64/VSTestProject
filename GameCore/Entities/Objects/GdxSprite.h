@@ -15,89 +15,125 @@
 #include "Physics/CollisionObject.h"
 #include "Physics/GenericCollisionListener.h"
 #include "Entities/Components/AnimationComponent.h"
-#include "Entities/Components/CollisionListener.h"
-#include "Entities/Components/SpriteProperties.h"
+#include "Entities/Components/CollisionCallback.h"
 #include "Entities/SpriteDescriptor.h"
+#include "Physics/BoxCollision.h"
+#include "box2d/b2_body.h"
 
 using namespace Enums;
 using namespace GDX;
 
 namespace Game
 {
-	class GDXSprite
-	{
-	public:
-		GDXSprite();
-		explicit GDXSprite(GraphicID gid);
-		virtual ~GDXSprite() = default;
+    class GDXSprite
+    {
+    public:
+        GDXSprite();
+        explicit GDXSprite( GraphicID gid );
+        virtual ~GDXSprite() = default;
 
-		//
-		// Functions to be overridden in any child classes.
-		virtual void Initialise(SpriteDescriptor& descriptor);
-		virtual void Update();
-		virtual void Animate();
+        virtual void Initialise( SpriteDescriptor &descriptor );
+        virtual void Setup( bool isSpawning );
+        virtual void Create( SpriteDescriptor &descriptor );
+        virtual void Create( SpriteDescriptor &descriptor, b2BodyType bodyType );
+        virtual void InitPosition( Vec3< int > &vec3 );
+        virtual SimpleVec3 GetPositionModifier();
+        virtual void PreUpdate();
+        virtual void Update();
+        virtual void PostUpdate();
+        virtual void UpdateCommon() const;
+        virtual void Tidy();
+        virtual void PreDraw();
+        virtual void Draw();
+        virtual void Animate();
+        virtual void SetAnimation( SpriteDescriptor &descriptor );
+        virtual void SetPositionFromBody();
+        virtual void SetCollisionObject( int x, int y );
+        virtual void AddCollisionCallback( const CollisionCallback &callback );
+        virtual void UpdateCollisionCheck();
+        virtual void UpdateCollisionBox();
+        virtual void SetSpriteNumber( int index );
+        virtual void SetLink( int link );
+        virtual void SetActionState( ActionStates state );
 
-		//
-		// Optional Functions to be overridden.
-		virtual void Setup(bool isSpawning) {}
-		virtual void PreDraw();
-		virtual void Draw();
-		virtual void SetAnimation(SpriteDescriptor& descriptor);
-		virtual void UpdateCollisionBox();
-		virtual void SetActionState(ActionStates state);
-
-		//
-		// Generally not overridden (but can be if required).
-		void Create(SpriteDescriptor& descriptor);
-		void UpdateCommon() const;
-		void InitPosition(Vec3<int>& vec3);
-		void SetCollisionObject(int x, int y);
-		void UpdateCollisionCheck();
-		void Tidy();
-
-		[[nodiscard]] float GetTopEdge() const;
-		[[nodiscard]] float GetRightEdge() const;
-		[[nodiscard]] BoundsBox GetBoundingBox() const;
-		[[nodiscard]] Vec2<int> GetSize() const;
-		[[nodiscard]] Vec3<float> GetPosition();
-		[[nodiscard]] sf::Sprite GetSprite();
-		[[nodiscard]] bool IsDrawable();
+        [[nodiscard]] Vec3< float > GetPosition();
+        [[nodiscard]] CollisionObject GetCollisionObject() const;
+        [[nodiscard]] float GetTopEdge() const;
+        [[nodiscard]] float GetRightEdge() const;
+        [[nodiscard]] short GetBodyCategory() const;
+        [[nodiscard]] short GetCollidesWith() const;
+        [[nodiscard]] int GetSpriteNumber() const;
+        [[nodiscard]] int GetLink() const;
+        [[nodiscard]] bool IsLinked() const;
+        [[nodiscard]] GraphicID GetGID() const;
+        [[nodiscard]] GraphicID GetType() const;
         [[nodiscard]] ActionStates GetActionState() const;
+        [[nodiscard]] BoundsBox GetBoundingBox() const;
+        [[nodiscard]] Vec2< int > GetSize() const;
+        [[nodiscard]] sf::Sprite GetSprite();
+        [[nodiscard]] bool IsDrawable() const;
 
-		// ------------------------------------------------
-		// Data.
-		int		m_spriteNumber;						// ...
-		int		m_zPosition;						// Z-sort order
+        // ------------------------------------------------
+        // Data.
+        // ------------------------------------------------
 
-		int     m_frameWidth;						// Width in pixels, or width of frame for animations
-		int     m_frameHeight;						// Width in pixels, or width of frame for animations
-		float   m_rightEdge;						// The right edge of this entities collision box
-		float   m_topEdge;							// The top edge of this entities collision box
-		short   m_bodyCategory;						// Bit-mask entity collision type
-		short	m_collidesWith;						// Bit-mask of entity types that can be collided with
-		float	m_elapsedAnimTime;					// Timer for animation speed
+        // -------------------------------------------------
+        // Identity etc.
+        //
+        GraphicID    m_gid;                                 // Entity ID
+        GraphicID    m_type;                                // Entity Type - _Entity, _OBSTACLE, etc.
+        ActionStates m_entityAction;                        // Current action/state
+        int          m_spriteNumber;                        // ...
+        bool         m_isMainCharacter;
+        bool         m_isEnemy;
+        int          m_strength;
 
-		CollisionObject*	m_collisionObject;		// ...
-		SpriteProperties*	m_properties;			// ...
+        // -------------------------------------------------
+        // Movement/Transform etc.
+        //
+        Direction     m_direction;
+        Direction     m_lookingAt;
+        Vec2< float > m_distance;
+        SimpleVec2F   m_speed;
+        Vec3< float > m_initXY;                             // Initialisation position
+        int           m_zPosition;                          // Z-sort order
+        bool          m_isFlippedX;
+        bool          m_isFlippedY;
+        bool          m_canFlip;
+        bool          m_isRotating;
+        float         m_rotateSpeed;
+        float         m_rotation;
+        Vec3< float > m_position;                           // Map position
 
-		GraphicID		m_gid;						// Entity ID
-		GraphicID		m_type;						// Entity Type - _Entity, _OBSTACLE, etc.
-		ActionStates	m_entityAction;				// Current action/state
-		Vec3<float>		m_position;					// Map position
-		Vec3<float>		m_initXY;					// Initialisation position
-		Direction		m_direction;
-		Direction		m_lookingAt;
-		Vec2<float>		m_distance;
-		SimpleVec2F		m_speed;
-		Animation		m_animation;
+        // -------------------------------------------------
+        // Collision Related
+        //
+        short                    m_bodyCategory;            // Bit-mask entity collision type
+        short                    m_collidesWith;            // Bit-mask of entity types that can be collided with
+        float                    m_rightEdge;               // The right edge of this entities collision box
+        float                    m_topEdge;                 // The top edge of this entities collision box
+        CollisionObject          m_collisionObject;        // ...
+        GenericCollisionListener *m_collisionListener;
+        BoxCollision             *m_boxCollision;
 
-		sf::Texture m_animation_texture;
-		std::vector<sf::Texture> m_animFrames;
+        // -------------------------------------------------
+        // Animation Related
+        //
+        Animation                  m_animation;
+        float                      m_elapsedAnimTime;        // Timer for animation speed
+        std::vector< sf::Texture > m_animFrames;
+        bool                       m_isAnimating;
+        bool                       m_isLoopingAnim;
+        int                        m_frameWidth;             // Width in pixels, or width of frame for animations
+        int                        m_frameHeight;            // Width in pixels, or width of frame for animations
+        sf::Texture                m_animation_texture;
+        bool                       m_isDrawable;
 
-	protected:
-		sf::Sprite                  m_sprite;
-		GenericCollisionListener*	m_collisionListener;
-	};
+    protected:
+        sf::Sprite m_sprite;
+        int        m_link;
+        bool       m_isLinked;
+    };
 }
 
 #endif // __GDXSPRITE_H

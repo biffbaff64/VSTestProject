@@ -13,6 +13,7 @@ include_directories(LibUtils)
 include_directories(Shared/Enums)
 include_directories(Shared/SharedData)
 include_directories(LibUtils/SFML/include)
+include_directories(LibUtils/Box2D/include)
 
 link_directories(${PROJECT_NAME}/LibUtils/SFML/lib)
 
@@ -34,10 +35,8 @@ add_executable(${PROJECT_NAME}
         GameCore/Entities/Characters/Decoration.cpp
         GameCore/Entities/Characters/Decoration.h
         GameCore/Entities/Components/AnimationComponent.h
-        GameCore/Entities/Components/CollisionListener.h
+        GameCore/Entities/Components/CollisionCallback.h
         GameCore/Entities/Components/EntityManagerComponent.h
-        GameCore/Entities/Components/SpriteProperties.cpp
-        GameCore/Entities/Components/SpriteProperties.h
         GameCore/Entities/Hero/ButtonInputHandler.cpp
         GameCore/Entities/Hero/ButtonInputHandler.h
         GameCore/Entities/Hero/CollisionHandler.cpp
@@ -231,6 +230,60 @@ add_executable(${PROJECT_NAME}
         LibUtils/TMX/Types.inl
         LibUtils/Application.cpp
         LibUtils/Application.h
+        LibUtils/Box2D/src/collision/b2_broad_phase.cpp
+        LibUtils/Box2D/src/collision/b2_chain_shape.cpp
+        LibUtils/Box2D/src/collision/b2_circle_shape.cpp
+        LibUtils/Box2D/src/collision/b2_collide_circle.cpp
+        LibUtils/Box2D/src/collision/b2_collide_edge.cpp
+        LibUtils/Box2D/src/collision/b2_collide_polygon.cpp
+        LibUtils/Box2D/src/collision/b2_collision.cpp
+        LibUtils/Box2D/src/collision/b2_distance.cpp
+        LibUtils/Box2D/src/collision/b2_dynamic_tree.cpp
+        LibUtils/Box2D/src/collision/b2_edge_shape.cpp
+        LibUtils/Box2D/src/collision/b2_polygon_shape.cpp
+        LibUtils/Box2D/src/collision/b2_time_of_impact.cpp
+        LibUtils/Box2D/src/common/b2_block_allocator.cpp
+        LibUtils/Box2D/src/common/b2_draw.cpp
+        LibUtils/Box2D/src/common/b2_math.cpp
+        LibUtils/Box2D/src/common/b2_settings.cpp
+        LibUtils/Box2D/src/common/b2_stack_allocator.cpp
+        LibUtils/Box2D/src/common/b2_timer.cpp
+        LibUtils/Box2D/src/dynamics/b2_body.cpp
+        LibUtils/Box2D/src/dynamics/b2_chain_circle_contact.cpp
+        LibUtils/Box2D/src/dynamics/b2_chain_circle_contact.h
+        LibUtils/Box2D/src/dynamics/b2_chain_polygon_contact.cpp
+        LibUtils/Box2D/src/dynamics/b2_chain_polygon_contact.h
+        LibUtils/Box2D/src/dynamics/b2_circle_contact.cpp
+        LibUtils/Box2D/src/dynamics/b2_circle_contact.h
+        LibUtils/Box2D/src/dynamics/b2_contact.cpp
+        LibUtils/Box2D/src/dynamics/b2_contact_manager.cpp
+        LibUtils/Box2D/src/dynamics/b2_contact_solver.cpp
+        LibUtils/Box2D/src/dynamics/b2_contact_solver.h
+        LibUtils/Box2D/src/dynamics/b2_distance_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_edge_circle_contact.cpp
+        LibUtils/Box2D/src/dynamics/b2_edge_circle_contact.h
+        LibUtils/Box2D/src/dynamics/b2_edge_polygon_contact.cpp
+        LibUtils/Box2D/src/dynamics/b2_edge_polygon_contact.h
+        LibUtils/Box2D/src/dynamics/b2_fixture.cpp
+        LibUtils/Box2D/src/dynamics/b2_friction_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_gear_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_island.cpp
+        LibUtils/Box2D/src/dynamics/b2_island.h
+        LibUtils/Box2D/src/dynamics/b2_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_motor_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_mouse_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_polygon_circle_contact.cpp
+        LibUtils/Box2D/src/dynamics/b2_polygon_circle_contact.h
+        LibUtils/Box2D/src/dynamics/b2_polygon_contact.cpp
+        LibUtils/Box2D/src/dynamics/b2_polygon_contact.h
+        LibUtils/Box2D/src/dynamics/b2_prismatic_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_pulley_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_revolute_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_weld_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_wheel_joint.cpp
+        LibUtils/Box2D/src/dynamics/b2_world.cpp
+        LibUtils/Box2D/src/dynamics/b2_world_callbacks.cpp
+        LibUtils/Box2D/src/rope/b2_rope.cpp
         Shared/Enums/ActionStates.h
         Shared/Enums/GameStates.h
         Shared/Enums/GraphicID.h

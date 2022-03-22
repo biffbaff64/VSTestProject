@@ -13,11 +13,11 @@ namespace Game
 {
     class CollisionObject;
 
-    class CollisionListener
+    class CollisionCallback
     {
     public:
-        CollisionListener() = default;
-        virtual ~CollisionListener() = default;
+        CollisionCallback() = default;
+        virtual ~CollisionCallback() = default;
 
         virtual void OnPositiveCollision(CollisionObject* cobjHitting) = 0;
         virtual void OnNegativeCollision() = 0;

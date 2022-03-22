@@ -3,11 +3,11 @@
 
 #include "CollisionObject.h"
 
-#include "../Entities/Components/CollisionListener.h"
+#include "../Entities/Components/CollisionCallback.h"
 
 namespace Game
 {
-	class GenericCollisionListener : CollisionListener
+	class GenericCollisionListener : CollisionCallback
 	{
 	public:
 		GenericCollisionListener() = default;

@@ -52,700 +52,1008 @@ build cmake_object_order_depends_target_VSTestProject: phony || CMakeFiles/VSTes
 build CMakeFiles/VSTestProject.dir/GameCore/Core/App.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Core/App.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Core\App.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Core
 
 build CMakeFiles/VSTestProject.dir/GameCore/Config/AppConfig.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Config/AppConfig.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Config\AppConfig.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Config
 
 build CMakeFiles/VSTestProject.dir/GameCore/Core/EndgameManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Core/EndgameManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Core\EndgameManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Core
 
 build CMakeFiles/VSTestProject.dir/GameCore/Core/GameLevelManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Core/GameLevelManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Core\GameLevelManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Core
 
 build CMakeFiles/VSTestProject.dir/GameCore/Core/GameProgress.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Core/GameProgress.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Core\GameProgress.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Core
 
 build CMakeFiles/VSTestProject.dir/GameCore/Core/GameSceneManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Core/GameSceneManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Core\GameSceneManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Core
 
 build CMakeFiles/VSTestProject.dir/GameCore/Core/MainGame.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Core/MainGame.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Core\MainGame.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Core
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Characters/Decoration.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Characters/Decoration.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Characters\Decoration.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Characters
-
-build CMakeFiles/VSTestProject.dir/GameCore/Entities/Components/SpriteProperties.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Components/SpriteProperties.cpp || cmake_object_order_depends_target_VSTestProject
-  DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Components\SpriteProperties.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
-  OBJECT_DIR = CMakeFiles\VSTestProject.dir
-  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Components
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Hero/ButtonInputHandler.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Hero/ButtonInputHandler.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Hero\ButtonInputHandler.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Hero
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Hero/CollisionHandler.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Hero/CollisionHandler.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Hero\CollisionHandler.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Hero
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Hero/MainPlayer.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Hero/MainPlayer.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Hero\MainPlayer.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Hero
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/DecorationsManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Managers/DecorationsManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Managers\DecorationsManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Managers
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/GenericEntityManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Managers/GenericEntityManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Managers\GenericEntityManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Managers
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/ManagerUtils.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Managers/ManagerUtils.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Managers\ManagerUtils.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Managers
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/PlayerManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Managers/PlayerManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Managers\PlayerManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Managers
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Objects/BoundedEnemy.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Objects/BoundedEnemy.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Objects\BoundedEnemy.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Objects
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Systems/RenderSystem.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Systems/RenderSystem.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Systems\RenderSystem.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Systems
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/EntityManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/EntityManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\EntityManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/EntityStats.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/EntityStats.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\EntityStats.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/EntityUtils.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/EntityUtils.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\EntityUtils.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/Objects/GdxSprite.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/Objects/GdxSprite.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\Objects\GdxSprite.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities\Objects
 
 build CMakeFiles/VSTestProject.dir/GameCore/Entities/SpriteDescriptor.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Entities/SpriteDescriptor.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Entities\SpriteDescriptor.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Entities
 
 build CMakeFiles/VSTestProject.dir/GameCore/Graphics/BaseRenderer.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Graphics/BaseRenderer.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Graphics\BaseRenderer.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Graphics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Graphics/FadeEffect.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Graphics/FadeEffect.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Graphics\FadeEffect.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Graphics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Graphics/GameResources.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Graphics/GameResources.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Graphics\GameResources.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Graphics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Graphics/Gfx.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Graphics/Gfx.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Graphics\Gfx.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Graphics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Graphics/GFXSetup.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Graphics/GFXSetup.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Graphics\GFXSetup.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Graphics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Graphics/OrthoGameCamera.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Graphics/OrthoGameCamera.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Graphics\OrthoGameCamera.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Graphics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Graphics/StarField.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Graphics/StarField.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Graphics\StarField.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Graphics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Graphics/StarObject.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Graphics/StarObject.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Graphics\StarObject.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Graphics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Graphics/WindowUtils.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Graphics/WindowUtils.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Graphics\WindowUtils.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Graphics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Input/InputManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Input/InputManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Input\InputManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Input
 
 build CMakeFiles/VSTestProject.dir/GameCore/Maps/MapCreator.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Maps/MapCreator.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Maps\MapCreator.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Maps
 
 build CMakeFiles/VSTestProject.dir/GameCore/Maps/MapData.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Maps/MapData.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Maps\MapData.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Maps
 
 build CMakeFiles/VSTestProject.dir/GameCore/Maps/MapUtils.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Maps/MapUtils.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Maps\MapUtils.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Maps
 
 build CMakeFiles/VSTestProject.dir/GameCore/Maps/ObjectTileProperties.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Maps/ObjectTileProperties.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Maps\ObjectTileProperties.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Maps
 
 build CMakeFiles/VSTestProject.dir/GameCore/Maps/Room.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Maps/Room.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Maps\Room.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Maps
 
 build CMakeFiles/VSTestProject.dir/GameCore/Maps/RoomManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Maps/RoomManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Maps\RoomManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Maps
 
 build CMakeFiles/VSTestProject.dir/GameCore/Physics/BoxCollision.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Physics/BoxCollision.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Physics\BoxCollision.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Physics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Physics/CollisionObject.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Physics/CollisionObject.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Physics\CollisionObject.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Physics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Physics/GenericCollisionListener.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Physics/GenericCollisionListener.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Physics\GenericCollisionListener.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Physics
 
 build CMakeFiles/VSTestProject.dir/GameCore/Scenes/GameScene.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Scenes/GameScene.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Scenes\GameScene.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Scenes
 
 build CMakeFiles/VSTestProject.dir/GameCore/Scenes/SceneManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Scenes/SceneManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Scenes\SceneManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Scenes
 
 build CMakeFiles/VSTestProject.dir/GameCore/Scenes/TitleScene.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/Scenes/TitleScene.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\Scenes\TitleScene.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\Scenes
 
 build CMakeFiles/VSTestProject.dir/GameCore/UI/HeadsUpDisplay.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/UI/HeadsUpDisplay.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\UI\HeadsUpDisplay.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\UI
 
 build CMakeFiles/VSTestProject.dir/GameCore/UI/ItemBar.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/UI/ItemBar.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\UI\ItemBar.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\UI
 
 build CMakeFiles/VSTestProject.dir/GameCore/UI/MessageManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/UI/MessageManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\UI\MessageManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\UI
 
 build CMakeFiles/VSTestProject.dir/GameCore/UI/ProgressBar.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/GameCore/UI/ProgressBar.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\GameCore\UI\ProgressBar.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\GameCore\UI
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Primitives/Lines.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/Primitives/Lines.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Primitives\Lines.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Primitives
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Primitives/Points.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/Primitives/Points.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Primitives\Points.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Primitives
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Primitives/Triangles.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/Primitives/Triangles.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Primitives\Triangles.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Primitives
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/Drawable2D.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/Types/Drawable2D.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Types\Drawable2D.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Types
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/RectangleShape.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/Types/RectangleShape.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Types\RectangleShape.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Types
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/Shape.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/Types/Shape.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Types\Shape.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Types
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/Transform.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/Types/Transform.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Types\Transform.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Types
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Animation.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/Animation.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Animation.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Color.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/Color.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\Color.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/TextureManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/TextureManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\TextureManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/TextureRegion.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Graphics/TextureRegion.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics\TextureRegion.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Graphics
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Input/Input.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Input/Input.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Input\Input.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Input
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Input/Switch.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Input/Switch.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Input\Switch.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Input
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/BoundsBox.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/BoundsBox.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\BoundsBox.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Box.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/Box.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\Box.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Item.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/Item.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\Item.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/ItemF.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/ItemF.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\ItemF.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Matrix4.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/Matrix4.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\Matrix4.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/NumberUtils.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/NumberUtils.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\NumberUtils.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Rectangle.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/Rectangle.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\Rectangle.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleLine2D.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/SimpleLine2D.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\SimpleLine2D.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleVec2.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/SimpleVec2.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\SimpleVec2.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleVec2F.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/SimpleVec2F.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\SimpleVec2F.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleVec3.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/SimpleVec3.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\SimpleVec3.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Vector.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Maths/Vector.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths\Vector.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Maths
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/CollisionUtils.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Physics/CollisionUtils.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Physics\CollisionUtils.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Physics
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/Direction.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Physics/Direction.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Physics\Direction.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Physics
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/DirectionComponent.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Physics/DirectionComponent.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Physics\DirectionComponent.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Physics
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/Movement.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Physics/Movement.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Physics\Movement.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Physics
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/System/CpuUsage.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/System/CpuUsage.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\System\CpuUsage.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\System
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/System/FPSCounter.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/System/FPSCounter.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\System\FPSCounter.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\System
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Bitmask.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Utils/Bitmask.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils\Bitmask.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/StateManager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Utils/StateManager.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils\StateManager.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Stats.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Utils/Stats.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils\Stats.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Trace.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Utils/Trace.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils\Trace.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Utils.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Utils/Utils.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils\Utils.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils
 
 build CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/WorkingDirectory.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/GDX/Utils/WorkingDirectory.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils\WorkingDirectory.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\GDX\Utils
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/detail/pugixml.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/detail/pugixml.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\detail\pugixml.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX\detail
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/FreeFuncs.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/FreeFuncs.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\FreeFuncs.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/ImageLayer.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/ImageLayer.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\ImageLayer.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/LayerGroup.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/LayerGroup.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\LayerGroup.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/Map.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/Map.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\Map.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/MapObject.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/MapObject.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\MapObject.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/miniz.c.obj: C_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/miniz.c || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\miniz.c.obj.d
   FLAGS = -g
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/ObjectGroup.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/ObjectGroup.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\ObjectGroup.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/OrthoMapLayer.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/OrthoMapLayer.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\OrthoMapLayer.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/Property.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/Property.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\Property.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/TileLayer.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/TileLayer.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\TileLayer.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/TMX/Tileset.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/TMX/Tileset.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\TMX\Tileset.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\TMX
 
 build CMakeFiles/VSTestProject.dir/LibUtils/Application.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Application.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Application.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_broad_phase.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_broad_phase.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_broad_phase.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_chain_shape.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_chain_shape.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_chain_shape.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_circle_shape.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_circle_shape.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_circle_shape.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_collide_circle.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_collide_circle.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_collide_circle.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_collide_edge.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_collide_edge.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_collide_edge.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_collide_polygon.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_collide_polygon.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_collide_polygon.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_collision.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_collision.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_collision.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_distance.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_distance.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_distance.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_dynamic_tree.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_dynamic_tree.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_dynamic_tree.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_edge_shape.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_edge_shape.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_edge_shape.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_polygon_shape.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_polygon_shape.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_polygon_shape.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_time_of_impact.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/collision/b2_time_of_impact.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision\b2_time_of_impact.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\collision
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_block_allocator.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/common/b2_block_allocator.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common\b2_block_allocator.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_draw.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/common/b2_draw.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common\b2_draw.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_math.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/common/b2_math.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common\b2_math.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_settings.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/common/b2_settings.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common\b2_settings.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_stack_allocator.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/common/b2_stack_allocator.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common\b2_stack_allocator.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_timer.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/common/b2_timer.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common\b2_timer.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\common
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_body.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_body.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_body.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_chain_circle_contact.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_chain_circle_contact.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_chain_circle_contact.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_chain_polygon_contact.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_chain_polygon_contact.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_chain_polygon_contact.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_circle_contact.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_circle_contact.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_circle_contact.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_contact.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_contact.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_contact.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_contact_manager.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_contact_manager.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_contact_manager.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_contact_solver.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_contact_solver.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_contact_solver.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_distance_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_distance_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_distance_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_edge_circle_contact.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_edge_circle_contact.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_edge_circle_contact.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_edge_polygon_contact.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_edge_polygon_contact.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_edge_polygon_contact.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_fixture.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_fixture.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_fixture.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_friction_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_friction_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_friction_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_gear_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_gear_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_gear_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_island.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_island.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_island.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_motor_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_motor_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_motor_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_mouse_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_mouse_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_mouse_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_polygon_circle_contact.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_polygon_circle_contact.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_polygon_circle_contact.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_polygon_contact.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_polygon_contact.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_polygon_contact.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_prismatic_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_prismatic_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_prismatic_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_pulley_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_pulley_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_pulley_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_revolute_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_revolute_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_revolute_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_weld_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_weld_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_weld_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_wheel_joint.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_wheel_joint.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_wheel_joint.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_world.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_world.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_world.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_world_callbacks.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/dynamics/b2_world_callbacks.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics\b2_world_callbacks.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\dynamics
+
+build CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/rope/b2_rope.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/src/rope/b2_rope.cpp || cmake_object_order_depends_target_VSTestProject
+  DEP_FILE = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\rope\b2_rope.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
+  OBJECT_DIR = CMakeFiles\VSTestProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\LibUtils\Box2D\src\rope
 
 build CMakeFiles/VSTestProject.dir/Shared/Enums/Translations.cpp.obj: CXX_COMPILER__VSTestProject_Debug C$:/Development/Projects/CPP/VSTestProject/Shared/Enums/Translations.cpp || cmake_object_order_depends_target_VSTestProject
   DEP_FILE = CMakeFiles\VSTestProject.dir\Shared\Enums\Translations.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include
+  INCLUDES = -IC:/Development/Projects/CPP/VSTestProject/GameCore -IC:/Development/Projects/CPP/VSTestProject/LibUtils -IC:/Development/Projects/CPP/VSTestProject/Shared/Enums -IC:/Development/Projects/CPP/VSTestProject/Shared/SharedData -IC:/Development/Projects/CPP/VSTestProject/LibUtils/SFML/include -IC:/Development/Projects/CPP/VSTestProject/LibUtils/Box2D/include
   OBJECT_DIR = CMakeFiles\VSTestProject.dir
   OBJECT_FILE_DIR = CMakeFiles\VSTestProject.dir\Shared\Enums
 
@@ -757,7 +1065,7 @@ build CMakeFiles/VSTestProject.dir/Shared/Enums/Translations.cpp.obj: CXX_COMPIL
 #############################################
 # Link the executable VSTestProject.exe
 
-build VSTestProject.exe: CXX_EXECUTABLE_LINKER__VSTestProject_Debug CMakeFiles/VSTestProject.dir/GameCore/Core/App.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Config/AppConfig.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/EndgameManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/GameLevelManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/GameProgress.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/GameSceneManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/MainGame.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Characters/Decoration.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Components/SpriteProperties.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Hero/ButtonInputHandler.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Hero/CollisionHandler.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Hero/MainPlayer.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/DecorationsManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/GenericEntityManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/ManagerUtils.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/PlayerManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Objects/BoundedEnemy.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Systems/RenderSystem.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/EntityManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/EntityStats.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/EntityUtils.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Objects/GdxSprite.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/SpriteDescriptor.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/BaseRenderer.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/FadeEffect.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/GameResources.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/Gfx.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/GFXSetup.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/OrthoGameCamera.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/StarField.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/StarObject.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/WindowUtils.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Input/InputManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/MapCreator.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/MapData.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/MapUtils.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/ObjectTileProperties.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/Room.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/RoomManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Physics/BoxCollision.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Physics/CollisionObject.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Physics/GenericCollisionListener.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Scenes/GameScene.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Scenes/SceneManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Scenes/TitleScene.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/UI/HeadsUpDisplay.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/UI/ItemBar.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/UI/MessageManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/UI/ProgressBar.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Primitives/Lines.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Primitives/Points.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Primitives/Triangles.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/Drawable2D.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/RectangleShape.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/Shape.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/Transform.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Animation.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Color.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/TextureManager.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/TextureRegion.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Input/Input.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Input/Switch.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/BoundsBox.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Box.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Item.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/ItemF.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Matrix4.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/NumberUtils.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Rectangle.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleLine2D.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleVec2.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleVec2F.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleVec3.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Vector.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/CollisionUtils.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/Direction.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/DirectionComponent.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/Movement.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/System/CpuUsage.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/System/FPSCounter.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Bitmask.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/StateManager.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Stats.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Trace.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Utils.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/WorkingDirectory.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/detail/pugixml.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/FreeFuncs.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/ImageLayer.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/LayerGroup.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/Map.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/MapObject.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/miniz.c.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/ObjectGroup.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/OrthoMapLayer.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/Property.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/TileLayer.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/Tileset.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Application.cpp.obj CMakeFiles/VSTestProject.dir/Shared/Enums/Translations.cpp.obj
+build VSTestProject.exe: CXX_EXECUTABLE_LINKER__VSTestProject_Debug CMakeFiles/VSTestProject.dir/GameCore/Core/App.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Config/AppConfig.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/EndgameManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/GameLevelManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/GameProgress.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/GameSceneManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Core/MainGame.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Characters/Decoration.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Hero/ButtonInputHandler.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Hero/CollisionHandler.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Hero/MainPlayer.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/DecorationsManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/GenericEntityManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/ManagerUtils.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Managers/PlayerManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Objects/BoundedEnemy.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Systems/RenderSystem.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/EntityManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/EntityStats.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/EntityUtils.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/Objects/GdxSprite.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Entities/SpriteDescriptor.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/BaseRenderer.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/FadeEffect.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/GameResources.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/Gfx.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/GFXSetup.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/OrthoGameCamera.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/StarField.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/StarObject.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Graphics/WindowUtils.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Input/InputManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/MapCreator.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/MapData.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/MapUtils.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/ObjectTileProperties.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/Room.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Maps/RoomManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Physics/BoxCollision.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Physics/CollisionObject.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Physics/GenericCollisionListener.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Scenes/GameScene.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Scenes/SceneManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/Scenes/TitleScene.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/UI/HeadsUpDisplay.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/UI/ItemBar.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/UI/MessageManager.cpp.obj CMakeFiles/VSTestProject.dir/GameCore/UI/ProgressBar.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Primitives/Lines.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Primitives/Points.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Primitives/Triangles.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/Drawable2D.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/RectangleShape.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/Shape.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Types/Transform.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Animation.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/Color.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/TextureManager.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Graphics/TextureRegion.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Input/Input.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Input/Switch.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/BoundsBox.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Box.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Item.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/ItemF.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Matrix4.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/NumberUtils.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Rectangle.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleLine2D.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleVec2.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleVec2F.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/SimpleVec3.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Maths/Vector.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/CollisionUtils.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/Direction.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/DirectionComponent.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Physics/Movement.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/System/CpuUsage.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/System/FPSCounter.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Bitmask.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/StateManager.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Stats.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Trace.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/Utils.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/GDX/Utils/WorkingDirectory.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/detail/pugixml.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/FreeFuncs.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/ImageLayer.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/LayerGroup.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/Map.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/MapObject.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/miniz.c.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/ObjectGroup.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/OrthoMapLayer.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/Property.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/TileLayer.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/TMX/Tileset.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Application.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_broad_phase.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_chain_shape.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_circle_shape.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_collide_circle.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_collide_edge.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_collide_polygon.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_collision.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_distance.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_dynamic_tree.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_edge_shape.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_polygon_shape.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/collision/b2_time_of_impact.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_block_allocator.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_draw.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_math.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_settings.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_stack_allocator.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/common/b2_timer.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_body.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_chain_circle_contact.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_chain_polygon_contact.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_circle_contact.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_contact.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_contact_manager.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_contact_solver.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_distance_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_edge_circle_contact.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_edge_polygon_contact.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_fixture.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_friction_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_gear_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_island.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_motor_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_mouse_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_polygon_circle_contact.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_polygon_contact.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_prismatic_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_pulley_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_revolute_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_weld_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_wheel_joint.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_world.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/dynamics/b2_world_callbacks.cpp.obj CMakeFiles/VSTestProject.dir/LibUtils/Box2D/src/rope/b2_rope.cpp.obj CMakeFiles/VSTestProject.dir/Shared/Enums/Translations.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LC:/Development/Projects/CPP/VSTestProject/VSTestProject/LibUtils/SFML/lib
