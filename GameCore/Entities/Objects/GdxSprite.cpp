@@ -17,43 +17,15 @@ namespace Game
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
-    GDXSprite::GDXSprite() : GDXSprite( GraphicID::NoID )
-    {
-    }
-
-    //------------------------------------------------------------------------------------------------------
-    //------------------------------------------------------------------------------------------------------
-
-    GDXSprite::GDXSprite( Enums::GraphicID gid )
-    :
-    m_gid( gid ),
-    m_entityAction( ActionStates::NoAction ),
-    m_type( GraphicID::Entity ),
-    m_frameWidth( 0 ),
-    m_frameHeight( 0 ),
-    m_animation(),
-    m_spriteNumber( 0 ),
-    m_topEdge( 0 ),
-    m_rightEdge( 0 ),
-    m_zPosition( 0 ),
-    m_elapsedAnimTime( 0 ),
-    m_bodyCategory( Gfx::CAT_NONE ),
-    m_collidesWith( Gfx::CAT_NONE ),
-    m_collisionObject( nullptr ),
-    m_collisionListener( new GenericCollisionListener )
-    {
-    }
-
-    //------------------------------------------------------------------------------------------------------
-    //------------------------------------------------------------------------------------------------------
-
+    /// Initialise this sprite.
+    /// Override in any child classes and add any other
+    /// relevant initialisation code AFTER the call to Create().
+    ///
+    /// \param descriptor A reference to a SpriteDescriptor
+    /// holding setup information.
     void GDXSprite::Initialise( SpriteDescriptor &descriptor )
     {
         Create( descriptor );
-
-        //
-        // Override in any entity classes and add any
-        // other relevant initialisation code here.
     }
 
     //------------------------------------------------------------------------------------------------------
@@ -66,26 +38,81 @@ namespace Game
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
-    void GDXSprite::Create( SpriteDescriptor &descriptor )
+    void GDXSprite::Create( const SpriteDescriptor &descriptor )
     {
-        SetAnimation( descriptor );
+        m_sprite       = Sprite();
+        m_direction    = Direction();
+        m_lookingAt    = Direction();
+        m_speed        = SimpleVec2F();
+        m_distance     = SimpleVec2F();
+        m_initXYZ      = SimpleVec3F();
+        m_boxCollision = new BoxCollision();
+        m_position     = Vec3< float >();
+
+        m_isDrawable = true;
+        m_isRotating = false;
+        m_isFlippedX = false;
+        m_isFlippedY = false;
+        m_canFlip    = true;
 
         m_spriteNumber = descriptor.m_index;
         m_isAnimating  = ( descriptor.m_frames > 1 );
-        m_isDrawable   = true;
-        m_canFlip      = true;
-        m_strength     = MAX_STRENGTH;
+        m_entityAction = Enums::ActionStates::NoAction;
 
-        InitPosition( descriptor.m_position );
+        if ( !descriptor.m_asset.empty())
+        {
+            SetAnimation( descriptor );
+        }
 
-        SetCollisionObject((int) m_sprite.getPosition().x, (int) m_sprite.getPosition().y );
+        SimpleVec3 vec3
+                   {
+                   descriptor.m_position.m_x,
+                   descriptor.m_position.m_y,
+                   pApp->m_pEntityUtils->GetInitialZPosition( m_gid )
+                   };
+
+        SimpleVec3 vec3m = GetPositionModifier();
+
+        vec3.Add( vec3m.m_x, vec3m.m_y, vec3m.m_z );
+
+        InitPosition( vec3 );
+
+        SetCollisionObject( m_sprite.getPosition().x, m_sprite.getPosition().y );
+
+        m_isLinked = ( descriptor.m_link > 0 );
+        m_link     = descriptor.m_link;
     }
 
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
-    void GDXSprite::Create( SpriteDescriptor &descriptor, b2BodyType bodyType )
+    void GDXSprite::Create( const SpriteDescriptor &descriptor, b2BodyType bodyType )
     {
+        Create( descriptor );
+
+        if ( pApp->m_pAppConfig->IsUsingBox2DPhysics() )
+        {
+            switch ( bodyType )
+            {
+                case b2_staticBody:
+                {
+                }
+                break;
+
+                case b2_kinematicBody:
+                {
+                }
+                break;
+
+                case b2_dynamicBody:
+                {
+                }
+                break;
+
+                default:
+                    break;
+            }
+        }
     }
 
     //------------------------------------------------------------------------------------------------------
@@ -99,8 +126,8 @@ namespace Game
         (float) ((( vec3.m_y + 1 ) * pApp->m_pMapData->m_tileHeight ) - m_frameHeight )
         );
 
-        m_initXY.m_x = m_sprite.getPosition().x;
-        m_initXY.m_y = m_sprite.getPosition().y;
+        m_initXYZ.m_x = m_sprite.getPosition().x;
+        m_initXYZ.m_y = m_sprite.getPosition().y;
 
         m_zPosition = vec3.m_z;
     }
@@ -108,8 +135,14 @@ namespace Game
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
+    ///
+    /// Provides an init position modifier value.
+    /// GdxSprites are placed on TiledMap boundaries and
+    /// some may need that position adjusting.
+    ///
     SimpleVec3 GDXSprite::GetPositionModifier()
     {
+        return {};
     }
 
     //------------------------------------------------------------------------------------------------------
@@ -117,6 +150,20 @@ namespace Game
 
     void GDXSprite::PreUpdate()
     {
+        if ( pApp->m_pGameProgress->m_levelCompleted
+            && !m_isMainCharacter
+            && ( m_entityAction != ActionStates::Dead )
+            && ( m_entityAction != ActionStates::Dying ))
+        {
+            m_entityAction = ActionStates::Dying;
+        }
+        else
+        {
+            if ( m_entityAction == ActionStates::Restarting )
+            {
+                m_sprite.setPosition( m_initXYZ.m_x, m_initXYZ.m_y );
+            }
+        }
     }
 
     //------------------------------------------------------------------------------------------------------
@@ -140,14 +187,20 @@ namespace Game
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
-    void GDXSprite::UpdateCommon() const
+    void GDXSprite::UpdateCommon()
     {
         if ( m_isRotating )
         {
+            m_sprite.rotate(m_rotateSpeed );
         }
 
         if ( m_canFlip )
         {
+            m_sprite.setScale
+            (
+                ( m_isFlippedX ? -1.0f : 1.0f ),
+                ( m_isFlippedY ? -1.0f : 1.0f )
+            );
         }
     }
 
@@ -193,7 +246,7 @@ namespace Game
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
-    void GDXSprite::SetAnimation( SpriteDescriptor &descriptor )
+    void GDXSprite::SetAnimation( const SpriteDescriptor &descriptor )
     {
         m_animFrames.clear();
 
@@ -226,7 +279,7 @@ namespace Game
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
-    void GDXSprite::SetCollisionObject( int x, int y )
+    void GDXSprite::SetCollisionObject( float x, float y )
     {
         m_collisionObject = CollisionObject();
 

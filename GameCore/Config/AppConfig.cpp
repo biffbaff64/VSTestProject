@@ -9,6 +9,7 @@
 
 #include "Core/App.h"
 #include "AppConfig.h"
+#include "Settings.h"
 
 namespace Game
 {
@@ -26,6 +27,14 @@ namespace Game
         m_hud_exists(false),
         m_controllers_fitted(false)
     {
+    }
+
+    //------------------------------------------------------------------------------------------------------
+    //------------------------------------------------------------------------------------------------------
+
+    bool AppConfig::IsUsingBox2DPhysics() const
+    {
+        return pApp->GetSettings().IsEnabled( Settings.BOX2D_PHYSICS );
     }
 
     //------------------------------------------------------------------------------------------------------

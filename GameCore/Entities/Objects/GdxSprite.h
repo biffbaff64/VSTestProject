@@ -10,6 +10,7 @@
 #include "GDX/Maths/BoundsBox.h"
 #include "GDX/Maths/SimpleVec2F.h"
 #include "GDX/Maths/SimpleVec3.h"
+#include "GDX/Maths/SimpleVec3F.h"
 #include "GDX/Physics/Direction.h"
 
 #include "Physics/CollisionObject.h"
@@ -28,27 +29,26 @@ namespace Game
     class GDXSprite
     {
     public:
-        GDXSprite();
-        explicit GDXSprite( GraphicID gid );
+        GDXSprite() = default;
         virtual ~GDXSprite() = default;
 
         virtual void Initialise( SpriteDescriptor &descriptor );
         virtual void Setup( bool isSpawning );
-        virtual void Create( SpriteDescriptor &descriptor );
-        virtual void Create( SpriteDescriptor &descriptor, b2BodyType bodyType );
+        virtual void Create( const SpriteDescriptor &descriptor );
+        virtual void Create( const SpriteDescriptor &descriptor, b2BodyType bodyType );
         virtual void InitPosition( Vec3< int > &vec3 );
         virtual SimpleVec3 GetPositionModifier();
         virtual void PreUpdate();
         virtual void Update();
         virtual void PostUpdate();
-        virtual void UpdateCommon() const;
+        virtual void UpdateCommon();
         virtual void Tidy();
         virtual void PreDraw();
         virtual void Draw();
         virtual void Animate();
-        virtual void SetAnimation( SpriteDescriptor &descriptor );
+        virtual void SetAnimation( const SpriteDescriptor &descriptor );
         virtual void SetPositionFromBody();
-        virtual void SetCollisionObject( int x, int y );
+        virtual void SetCollisionObject( float x, float y );
         virtual void AddCollisionCallback( const CollisionCallback &callback );
         virtual void UpdateCollisionCheck();
         virtual void UpdateCollisionBox();
@@ -95,7 +95,7 @@ namespace Game
         Direction     m_lookingAt;
         Vec2< float > m_distance;
         SimpleVec2F   m_speed;
-        Vec3< float > m_initXY;                             // Initialisation position
+        Vec3< float > m_initXYZ;                            // Initialisation position
         int           m_zPosition;                          // Z-sort order
         bool          m_isFlippedX;
         bool          m_isFlippedY;
@@ -108,10 +108,11 @@ namespace Game
         // -------------------------------------------------
         // Collision Related
         //
-        short                    m_bodyCategory;            // Bit-mask entity collision type
-        short                    m_collidesWith;            // Bit-mask of entity types that can be collided with
-        float                    m_rightEdge;               // The right edge of this entities collision box
-        float                    m_topEdge;                 // The top edge of this entities collision box
+        short m_bodyCategory;            // Bit-mask entity collision type
+        short m_collidesWith;            // Bit-mask of entity types that can be collided with
+        float m_rightEdge;               // The right edge of this entities collision box
+        float m_topEdge;                 // The top edge of this entities collision box
+
         CollisionObject          m_collisionObject;        // ...
         GenericCollisionListener *m_collisionListener;
         BoxCollision             *m_boxCollision;

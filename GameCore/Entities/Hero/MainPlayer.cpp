@@ -86,7 +86,7 @@ namespace Game
 		m_canOpenMessagePanel	= true;
 
 		m_sprite.setRotation(0);
-		m_sprite.setPosition(m_initXY.ToVector2f());
+		m_sprite.setPosition( m_initXYZ.ToVector2f());
 		m_collisionObject->ClearCollision();
 
 		SetActionState(ActionStates::Spawning);

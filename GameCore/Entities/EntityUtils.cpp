@@ -472,7 +472,7 @@ namespace Game
         {
             GDXSprite gdxSprite = *pApp->m_pEntityManager->m_entityMap.at(i);
 
-            gdxSprite.GetSprite().setPosition(gdxSprite.m_initXY.m_x, gdxSprite.m_initXY.m_y);
+            gdxSprite.GetSprite().setPosition( gdxSprite.m_initXYZ.m_x, gdxSprite.m_initXYZ.m_y);
         }
     }
 

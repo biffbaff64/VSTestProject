@@ -10,7 +10,7 @@ namespace GDX
     public:
         SimpleVec3();
         SimpleVec3(int x, int y, int z);
-        explicit SimpleVec3(SimpleVec3 const &vec3);
+        SimpleVec3(SimpleVec3 const &vec3);
         virtual ~SimpleVec3() = default;
 
         void Add(int x, int y, int z);

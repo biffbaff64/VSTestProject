@@ -12,6 +12,8 @@ namespace Game
 		AppConfig();
 		~AppConfig() = default;
 
+        [[nodiscard]] bool IsUsingBox2DPhysics() const;
+
 		virtual void Pause();
 		virtual void UnPause();
 
