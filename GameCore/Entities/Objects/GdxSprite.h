@@ -70,12 +70,13 @@ namespace Game
         [[nodiscard]] ActionStates GetActionState() const;
         [[nodiscard]] BoundsBox GetBoundingBox() const;
         [[nodiscard]] Vec2< int > GetSize() const;
-        [[nodiscard]] sf::Sprite GetSprite();
+        [[nodiscard]] sf::Sprite *GetSprite();
         [[nodiscard]] bool IsDrawable() const;
 
         // ------------------------------------------------
         // Data.
         // ------------------------------------------------
+    protected:
 
         // -------------------------------------------------
         // Identity etc.
@@ -108,10 +109,11 @@ namespace Game
         // -------------------------------------------------
         // Collision Related
         //
-        short m_bodyCategory;            // Bit-mask entity collision type
-        short m_collidesWith;            // Bit-mask of entity types that can be collided with
-        float m_rightEdge;               // The right edge of this entities collision box
-        float m_topEdge;                 // The top edge of this entities collision box
+        b2Body *m_b2dBody;                                  // Box2D physics body
+        short  m_bodyCategory;                              // Bit-mask entity collision type
+        short  m_collidesWith;                              // Bit-mask of entity types that can be collided with
+        float  m_rightEdge;                                 // The right edge of this entities collision box
+        float  m_topEdge;                                   // The top edge of this entities collision box
 
         CollisionObject          m_collisionObject;        // ...
         GenericCollisionListener *m_collisionListener;
@@ -120,18 +122,18 @@ namespace Game
         // -------------------------------------------------
         // Animation Related
         //
-        Animation                  m_animation;
-        float                      m_elapsedAnimTime;        // Timer for animation speed
-        std::vector< sf::Texture > m_animFrames;
+        Animation                  *m_animation;
+        float                      m_elapsedAnimTime;       // Timer for animation speed
+        std::vector< sf::Texture > *m_animFrames;
         bool                       m_isAnimating;
         bool                       m_isLoopingAnim;
-        int                        m_frameWidth;             // Width in pixels, or width of frame for animations
-        int                        m_frameHeight;            // Width in pixels, or width of frame for animations
-        sf::Texture                m_animation_texture;
+        int                        m_frameWidth;            // Width in pixels, or width of frame for animations
+        int                        m_frameHeight;           // Width in pixels, or width of frame for animations
+        sf::Texture                *m_animation_texture;
         bool                       m_isDrawable;
 
     protected:
-        sf::Sprite m_sprite;
+        sf::Sprite *m_sprite;
         int        m_link;
         bool       m_isLinked;
     };

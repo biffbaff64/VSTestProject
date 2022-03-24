@@ -294,4 +294,4 @@ add_executable(${PROJECT_NAME}
         Shared/Enums/Translations.cpp
         Shared/Enums/Translations.h
         Shared/SharedData/GlobalDefines.h
-        Shared/SharedData/Types.h LibUtils/GDX/Maths/SimpleVec3F.cpp LibUtils/GDX/Maths/SimpleVec3F.h GameCore/Config/Settings.cpp GameCore/Config/Settings.h)
+        Shared/SharedData/Types.h LibUtils/GDX/Maths/SimpleVec3F.cpp LibUtils/GDX/Maths/SimpleVec3F.h GameCore/Config/Settings.cpp GameCore/Config/Settings.h GameCore/Entities/Systems/EntityData.cpp GameCore/Entities/Systems/EntityData.h)

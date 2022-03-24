@@ -26,8 +26,8 @@ Room roomMap[WORLD_HEIGHT][WORLD_WIDTH] =
 	{Room(), Room(PASSAGE_ES),   Room(ROOM_WS),     Room(),            Room(),            Room(ROOM12_NS),   Room(),            Room()},  // 6
 	{Room(), Room(ROOM14_NS),    Room(PASSAGE_NE),  Room(PASSAGE_ESW), Room(ROOM13_ESW),  Room(ROOM_NWS),    Room(PASSAGE_S),   Room()},  // 7
 	{Room(), Room(ROOM17_N),     Room(ROOM_N2),     Room(ROOM18_NS),   Room(ROOM2_NS),    Room(ROOM15_NE),   Room(ROOM16_NW),   Room()},  // 8
-	{Room(), Room(),             Room(),            Room(ROOM_N3),     Room(PRISON_N),    Room(),            Room(),            Room()},  // 9
-	{Room(), Room(),             Room(),            Room(),            Room(),            Room(),            Room(),            Room()},  // 10
+	{Room(), Room(),                        Room(),            Room(ROOM_N3),     Room(PRISON_N),    Room(),            Room(),            Room()},  // 9
+	{Room(),Room(),                        Room(),            Room(),            Room(),            Room(),            Room(),            Room()},  // 10
 
 	// -----------------------------------------
 	// DO NOT CHANGE THIS LINE
@@ -116,7 +116,7 @@ namespace Game
 	//------------------------------------------------------------------------------------------------------
 	//------------------------------------------------------------------------------------------------------
 
-	void RoomManager::SetRoom(SimpleVec2 coords)
+	void RoomManager::SetRoom(const SimpleVec2& coords)
 	{
 		if (roomMap[coords.m_x][coords.m_y].m_roomName != nullptr)
 		{
@@ -136,11 +136,11 @@ namespace Game
 
 		for (int column = 0; column < WORLD_WIDTH; column++)
 		{
-			for (int row = 0; row < WORLD_HEIGHT; row++)
+			for (auto & row : roomMap)
 			{
-				if (!roomMap[row][column].m_isLocked)
+				if (!row[column].m_isLocked)
 				{
-					roomMap[row][column].m_roomNumber = room_number++;
+					row[column].m_roomNumber = room_number++;
 				}
 			}
 		}
@@ -262,29 +262,29 @@ namespace Game
 	{
 		TraceFileFunc();
 
-		for (int row = 0; row < WORLD_HEIGHT; row++)
+		for (auto & row : roomMap)
 		{
-			for (int column = 0; column < WORLD_WIDTH; column++)
+			for (auto & column : row)
 			{
-				int index = roomMap[row][column].m_roomNumber;
+				int index = column.m_roomNumber;
 
 				if (index > 0)
 				{
 					// ----------------------------
-					roomMap[row][column].m_compassPoints[NORTH].m_x			= doorPositions[index].north.x;
-					roomMap[row][column].m_compassPoints[NORTH].m_y			= doorPositions[index].north.y;
+					column.m_compassPoints[NORTH].m_x			= doorPositions[index].north.x;
+					column.m_compassPoints[NORTH].m_y			= doorPositions[index].north.y;
 					// ----------------------------
-					roomMap[row][column].m_compassPoints[EAST].m_x			= doorPositions[index].east.x;
-					roomMap[row][column].m_compassPoints[EAST].m_y			= doorPositions[index].east.y;
+					column.m_compassPoints[EAST].m_x			= doorPositions[index].east.x;
+					column.m_compassPoints[EAST].m_y			= doorPositions[index].east.y;
 					// ----------------------------
-					roomMap[row][column].m_compassPoints[SOUTH].m_x			= doorPositions[index].south.x;
-					roomMap[row][column].m_compassPoints[SOUTH].m_y			= doorPositions[index].south.y;
+					column.m_compassPoints[SOUTH].m_x			= doorPositions[index].south.x;
+					column.m_compassPoints[SOUTH].m_y			= doorPositions[index].south.y;
 					// ----------------------------
-					roomMap[row][column].m_compassPoints[WEST].m_x			= doorPositions[index].west.x;
-					roomMap[row][column].m_compassPoints[WEST].m_y			= doorPositions[index].west.y;
+					column.m_compassPoints[WEST].m_x			= doorPositions[index].west.x;
+					column.m_compassPoints[WEST].m_y			= doorPositions[index].west.y;
 					// ----------------------------
-					roomMap[row][column].m_compassPoints[ROOM_START].m_x	= doorPositions[index].start.x;
-					roomMap[row][column].m_compassPoints[ROOM_START].m_y	= doorPositions[index].start.y;
+					column.m_compassPoints[ROOM_START].m_x	= doorPositions[index].start.x;
+					column.m_compassPoints[ROOM_START].m_y	= doorPositions[index].start.y;
 				}
 			}
 		}

@@ -31,7 +31,7 @@ namespace Game
         void TidySprites();
         void DrawSprites();
 
-        int AddEntity(std::shared_ptr<GDXSprite>&& sprite);
+        size_t AddEntity(std::shared_ptr<GDXSprite>&& sprite);
         int AddManager(GenericEntityManager *manager);
         void RemoveEntity(int index);
 

@@ -26,13 +26,24 @@ namespace Game
     void GDXSprite::Initialise( SpriteDescriptor &descriptor )
     {
         Create( descriptor );
+
+        Setup( false );
     }
 
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
+    /// An optional part #2 initialisation method.
+    /// If used, this should be called at the end of Initialise(),
+    /// and is mainly intended as a way of re-initialising sprites
+    /// after a reset, after losing a life for instance.
+    ///
+    /// \param isSpawning TRUE if the sprite is spawning and
+    ///                   entityAction should be set to Spawning,
+    ///                   otherwise FALSE (default).
     void GDXSprite::Setup( bool isSpawning )
     {
+        SetActionState( isSpawning ? ActionStates::Spawning : ActionStates::Standing );
     }
 
     //------------------------------------------------------------------------------------------------------
@@ -40,7 +51,7 @@ namespace Game
 
     void GDXSprite::Create( const SpriteDescriptor &descriptor )
     {
-        m_sprite       = Sprite();
+        m_sprite       = new Sprite;
         m_direction    = Direction();
         m_lookingAt    = Direction();
         m_speed        = SimpleVec2F();
@@ -77,7 +88,7 @@ namespace Game
 
         InitPosition( vec3 );
 
-        SetCollisionObject( m_sprite.getPosition().x, m_sprite.getPosition().y );
+        SetCollisionObject( m_sprite->getPosition().x, m_sprite->getPosition().y );
 
         m_isLinked = ( descriptor.m_link > 0 );
         m_link     = descriptor.m_link;
@@ -90,29 +101,28 @@ namespace Game
     {
         Create( descriptor );
 
-        if ( pApp->m_pAppConfig->IsUsingBox2DPhysics() )
+#ifdef USING_BOX2D
+        switch ( bodyType )
         {
-            switch ( bodyType )
+            case b2_staticBody:
             {
-                case b2_staticBody:
-                {
-                }
-                break;
-
-                case b2_kinematicBody:
-                {
-                }
-                break;
-
-                case b2_dynamicBody:
-                {
-                }
-                break;
-
-                default:
-                    break;
             }
+            break;
+
+            case b2_kinematicBody:
+            {
+            }
+            break;
+
+            case b2_dynamicBody:
+            {
+            }
+            break;
+
+            default:
+                break;
         }
+#endif
     }
 
     //------------------------------------------------------------------------------------------------------
@@ -120,14 +130,14 @@ namespace Game
 
     void GDXSprite::InitPosition( GDX::Vec3< int > &vec3 )
     {
-        m_sprite.setPosition
+        m_sprite->setPosition
         (
         (float) ( vec3.m_x * pApp->m_pMapData->m_tileWidth ),
         (float) ((( vec3.m_y + 1 ) * pApp->m_pMapData->m_tileHeight ) - m_frameHeight )
         );
 
-        m_initXYZ.m_x = m_sprite.getPosition().x;
-        m_initXYZ.m_y = m_sprite.getPosition().y;
+        m_initXYZ.m_x = m_sprite->getPosition().x;
+        m_initXYZ.m_y = m_sprite->getPosition().y;
 
         m_zPosition = vec3.m_z;
     }
@@ -151,9 +161,9 @@ namespace Game
     void GDXSprite::PreUpdate()
     {
         if ( pApp->m_pGameProgress->m_levelCompleted
-            && !m_isMainCharacter
-            && ( m_entityAction != ActionStates::Dead )
-            && ( m_entityAction != ActionStates::Dying ))
+             && !m_isMainCharacter
+             && ( m_entityAction != ActionStates::Dead )
+             && ( m_entityAction != ActionStates::Dying ))
         {
             m_entityAction = ActionStates::Dying;
         }
@@ -161,7 +171,7 @@ namespace Game
         {
             if ( m_entityAction == ActionStates::Restarting )
             {
-                m_sprite.setPosition( m_initXYZ.m_x, m_initXYZ.m_y );
+                m_sprite->setPosition( m_initXYZ.m_x, m_initXYZ.m_y );
             }
         }
     }
@@ -169,6 +179,10 @@ namespace Game
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
+    /// The main update method.
+    /// This is the MINIMUM that should be performed for each
+    /// sprite. Most sprites should override this to perform
+    /// their various actions.
     void GDXSprite::Update()
     {
         Animate();
@@ -191,15 +205,15 @@ namespace Game
     {
         if ( m_isRotating )
         {
-            m_sprite.rotate(m_rotateSpeed );
+            m_sprite->rotate( m_rotateSpeed );
         }
 
         if ( m_canFlip )
         {
-            m_sprite.setScale
+            m_sprite->setScale
             (
-                ( m_isFlippedX ? -1.0f : 1.0f ),
-                ( m_isFlippedY ? -1.0f : 1.0f )
+            ( m_isFlippedX ? -1.0f : 1.0f ),
+            ( m_isFlippedY ? -1.0f : 1.0f )
             );
         }
     }
@@ -228,7 +242,11 @@ namespace Game
     {
         if ( m_isDrawable )
         {
-            pApp->m_pBaseRenderer->m_renderWindow.draw( m_sprite, pApp->m_pBaseRenderer->m_renderStates );
+            pApp->m_pBaseRenderer->m_renderWindow.draw
+            (
+            *m_sprite,
+            pApp->m_pBaseRenderer->m_renderStates
+            );
         }
     }
 
@@ -237,8 +255,8 @@ namespace Game
 
     void GDXSprite::Animate()
     {
-        m_sprite.setTexture( m_animation.m_texture );
-        m_sprite.setTextureRect( m_animation.GetFrame( m_elapsedAnimTime ));
+        m_sprite->setTexture( m_animation->m_texture );
+        m_sprite->setTextureRect( m_animation->GetFrame( m_elapsedAnimTime ));
 
         m_elapsedAnimTime += pFramework->GetDeltaTime();
     }
@@ -248,20 +266,20 @@ namespace Game
 
     void GDXSprite::SetAnimation( const SpriteDescriptor &descriptor )
     {
-        m_animFrames.clear();
+        m_animFrames->clear();
 
         m_frameWidth  = descriptor.m_size.m_x;
         m_frameHeight = descriptor.m_size.m_y;
 
-        if ( m_animation_texture.loadFromFile( descriptor.m_asset ))
+        if ( m_animation_texture->loadFromFile( descriptor.m_asset ))
         {
-            m_animation.m_size.m_x = m_frameWidth;
-            m_animation.m_size.m_y = m_frameHeight;
+            m_animation->m_size.m_x = m_frameWidth;
+            m_animation->m_size.m_y = m_frameHeight;
 
-            m_animation.SetTexture( m_animation_texture );
-            m_animation.SetPlayMode( descriptor.m_playmode );
-            m_animation.SetFrameDuration( descriptor.m_anim_rate );
-            m_animation.SetFrameCount( descriptor.m_frames );
+            m_animation->SetTexture( *m_animation_texture );
+            m_animation->SetPlayMode( descriptor.m_playmode );
+            m_animation->SetFrameDuration( descriptor.m_anim_rate );
+            m_animation->SetFrameCount( descriptor.m_frames );
         }
         else
         {
@@ -274,6 +292,13 @@ namespace Game
 
     void GDXSprite::SetPositionFromBody()
     {
+#ifdef USING_BOX2D
+        m_sprite.setPosition
+        (
+            ( m_b2dBody.GetPosition().x * PPM ) - ((float) ( m_frameWidth >> 1)),
+            ( m_b2dBody.GetPosition().y * PPM ) - ((float) ( m_frameHeight >> 1 ))
+        );
+#endif
     }
 
     //------------------------------------------------------------------------------------------------------
@@ -335,10 +360,10 @@ namespace Game
 
     void GDXSprite::UpdateCollisionBox()
     {
-        m_collisionObject.m_rectangle.m_x      = (int) m_sprite.getPosition().x;
-        m_collisionObject.m_rectangle.m_y      = (int) m_sprite.getPosition().y;
-        m_collisionObject.m_rectangle.m_width  = (int) m_sprite.getPosition().x + m_frameWidth;
-        m_collisionObject.m_rectangle.m_height = (int) m_sprite.getPosition().y + m_frameHeight;
+        m_collisionObject.m_rectangle.m_x      = (int) m_sprite->getPosition().x;
+        m_collisionObject.m_rectangle.m_y      = (int) m_sprite->getPosition().y;
+        m_collisionObject.m_rectangle.m_width  = (int) m_sprite->getPosition().x + m_frameWidth;
+        m_collisionObject.m_rectangle.m_height = (int) m_sprite->getPosition().y + m_frameHeight;
     }
 
     //------------------------------------------------------------------------------------------------------
@@ -346,6 +371,7 @@ namespace Game
 
     void GDXSprite::SetSpriteNumber( int index )
     {
+        m_spriteNumber = index;
     }
 
     //------------------------------------------------------------------------------------------------------
@@ -368,8 +394,8 @@ namespace Game
 
     Vec3< float > GDXSprite::GetPosition()
     {
-        m_position.m_x = m_sprite.getPosition().x;
-        m_position.m_y = m_sprite.getPosition().y;
+        m_position.m_x = m_sprite->getPosition().x;
+        m_position.m_y = m_sprite->getPosition().y;
         m_position.m_z = (float) m_zPosition;
 
         return m_position;
@@ -490,7 +516,7 @@ namespace Game
     //------------------------------------------------------------------------------------------------------
     //------------------------------------------------------------------------------------------------------
 
-    sf::Sprite GDXSprite::GetSprite()
+    sf::Sprite *GDXSprite::GetSprite()
     {
         return m_sprite;
     }

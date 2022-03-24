@@ -1,11 +1,13 @@
 #ifndef __HEADSUPDISPLAY_H
 #define __HEADSUPDISPLAY_H
 
-#include "SFML/Graphics.hpp"
-#include "GDX/Input/Switch.h"
-#include "GDX/Maths/Vec2.h"
-#include "Enums/GameStates.h"
-#include "SharedData/GlobalDefines.h"
+#include <GameStates.h>
+#include <GlobalDefines.h>
+
+#include <SFML/Graphics.hpp>
+
+#include <GDX/Input/Switch.h>
+#include <GDX/Maths/Vec2.h>
 
 #include "MessageManager.h"
 #include "ProgressBar.h"

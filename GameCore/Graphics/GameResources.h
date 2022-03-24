@@ -152,7 +152,7 @@ namespace Game
 	#define BOUNCER_ASSET                       "Assets/Animations/bouncer.png"
 	#define FIRE_BALL_ASSET                     "Assets/Animations/fireball.png"
 	#define MINI_FIRE_BALL_ASSET                "Assets/Animations/mini_fireball.png"
-	#define SCORPION_ASSET                      "Assets/Animations/scorpìon_walk.png"
+	#define SCORPION_ASSET                      "Assets/Animations/scorpion_walk.png"
 	#define SPIKE_BALL_1_ASSET                  "Assets/Animations/round2.png"
 	#define SPIKE_BALL_2_ASSET                  "Assets/Animations/round2.png"
 	#define SPIKE_BALL_3_ASSET                  "Assets/Animations/round2.png"

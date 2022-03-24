@@ -1,10 +1,12 @@
 #ifndef __COLLISIONOBJECT_H
 #define __COLLISIONOBJECT_H
 
-#include "SFML/Graphics.hpp"
-#include "Enums/ActionStates.h"
-#include "Enums/GraphicID.h"
-#include "GDX/Maths/Box.h"
+#include <SFML/Graphics.hpp>
+
+#include <ActionStates.h>
+#include <GraphicID.h>
+
+#include <GDX/Maths/Box.h>
 
 namespace Game 
 {

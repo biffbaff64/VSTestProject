@@ -64,12 +64,12 @@ namespace Game
 
 			//
 			// Update all non-player entities.
-			for (size_t i = 0; i < m_entityMap.size(); i++)
+			for (auto & i : m_entityMap)
 			{
-				if ((m_entityMap[i]->m_entityAction != ActionStates::Dead)
-					&& (m_entityMap[i]->m_gid != GraphicID::Player))
+				if ((i->m_entityAction != ActionStates::Dead)
+					&& (i->m_gid != GraphicID::Player))
 				{
-					m_entityMap[i]->Update();
+					i->Update();
 				}
 			}
 
@@ -87,9 +87,9 @@ namespace Game
 			// to see if any entities need re-spawning etc.
 			if (!pApp->m_pGameProgress->m_levelCompleted)
 			{
-				for (size_t i = 0; i < m_managerList.size(); i++)
+				for (auto & i : m_managerList)
 				{
-					m_managerList.at(i)->Update();
+					i->Update();
 				}
 			}
 		}
@@ -138,9 +138,9 @@ namespace Game
 	//------------------------------------------------------------------------------------------------------
 	//------------------------------------------------------------------------------------------------------
 
-	int EntityManager::AddEntity(std::shared_ptr<GDXSprite>&& sprite)
+	size_t EntityManager::AddEntity(std::shared_ptr<GDXSprite>&& sprite)
 	{
-		int index = m_entityMap.size();
+		size_t index = m_entityMap.size();
 
 		m_entityMap.push_back( std::move(sprite));
 

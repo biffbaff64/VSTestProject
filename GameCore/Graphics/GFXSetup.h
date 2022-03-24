@@ -12,7 +12,6 @@ namespace Game
 		virtual ~GFXSetup() = default;
 
 		static void Init();
-		static void LoadAll();
 	};
 }
 

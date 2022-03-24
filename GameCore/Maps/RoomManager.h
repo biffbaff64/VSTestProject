@@ -30,7 +30,7 @@ namespace Game
         void ExitEast();
 
         [[nodiscard]] const char* GetCurrentMapNameWithPath();
-        [[nodiscard]] const char* GetMapNameWithPath(const char * const mapName);
+        [[nodiscard]] const char* GetMapNameWithPath(const char * mapName);
         [[nodiscard]] bool HasExitAt(int pos);
         [[nodiscard]] SimpleVec2 GetStartPosition();
 
@@ -38,9 +38,9 @@ namespace Game
         Room    m_activeRoom;
 
     private:
-        [[nodiscard]] SimpleVec2 FindRoom(const char * const roomName);
+        [[nodiscard]] SimpleVec2 FindRoom(const char * roomName);
 
-        void SetRoom(SimpleVec2 coords);
+        void SetRoom(const SimpleVec2& coords);
         void SetRoomNumbers();
         void CreateEntryPointsList();
 

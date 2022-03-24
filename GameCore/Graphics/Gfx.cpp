@@ -15,9 +15,10 @@ namespace Game
     Gfx::Gfx()
     {
         m_timePerFrame      = sf::seconds(1.0f / DESIRED_FPS);
-        m_pixelsPerMetre    = 64;
+        m_pixelsPerMetre    = PPM;
         m_worldGravity      = GDX::Vec2F(0, 9.8f);
         m_lerpSpeed         = 0.0175f;
+
         m_DesktopWidth      = 1120;         // Dimensions of the game window
         m_desktopHeight     = 640;
         m_viewWidth         = 2560;         // Dimensions of the game camera(s) viewport
