@@ -31,12 +31,12 @@ namespace Game
         void Render();
 
         void RefillItems();
-        void SetHudState(GameStates state);
+        void SetHudState( GameStates state );
 
-        [[nodiscard]] GameStates    GetHudState() const;
-        [[nodiscard]] ProgressBar   GetHealthBar();
-        [[nodiscard]] ProgressBar   GetLivesBar();
-        [[nodiscard]] ItemBar       *GetItemBar();
+        [[nodiscard]] GameStates GetHudState() const;
+        [[nodiscard]] ProgressBar GetHealthBar();
+        [[nodiscard]] ProgressBar GetLivesBar();
+        [[nodiscard]] ItemBar *GetItemBar();
 
         Switch m_buttonUp;
         Switch m_buttonDown;
@@ -63,8 +63,7 @@ namespace Game
             // Debug display positions
             Coords fps;
             Coords delta;
-        }
-        DisplayPos;
+        }   DisplayPos;
 
     private:
         void DrawPanels();
@@ -73,7 +72,7 @@ namespace Game
         void DrawHudMessages();
         void DrawPausePanel();
         void DrawHUDDebug();
-        void Write(const char* message, Vec2Int vec2, ...);
+        void Write( const char *message, Vec2Int vec2, ... );
 
         void UpdateBars();
         void UpdateDeveloperItems();
@@ -82,27 +81,27 @@ namespace Game
         void LoadContent();
         void LoadFonts();
 
-        ItemBar         *m_itemBar;
-        MessageManager  m_messageManager;
-        ProgressBar     m_healthBar;
-        ProgressBar     m_livesBar;
-        GameStates      m_hudState;
+        ItemBar        *m_itemBar;
+        MessageManager m_messageManager;
+        ProgressBar    m_healthBar;
+        ProgressBar    m_livesBar;
+        GameStates     m_hudState;
 
-        #ifdef HUD_DEMO_UPDATE
+#ifdef HUD_DEMO_UPDATE
         sf::Clock m_stopWatch;
         sf::Clock m_stopWatch2;
         sf::Clock m_stopWatch3;
-        #endif
+#endif
 
         sf::Font m_hudFont;
         sf::Text m_smallText;
         sf::Text m_midText;
         sf::Text m_bigText;
 
-        sf::Texture     m_ScorePanelTexture;
-        sf::Sprite      m_scorePanel;
-        sf::Texture     m_compassTexture;
-        sf::Sprite      m_compassSprite[4];
+        sf::Texture m_ScorePanelTexture;
+        sf::Sprite  m_scorePanel;
+        sf::Texture m_compassTexture;
+        sf::Sprite  m_compassSprite[4];
     };
 }
 
